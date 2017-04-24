@@ -22,6 +22,22 @@ branch.setBranchViewData({
     }
 });
 
+branch.deepview(
+    {
+      'channel': 'mobile_web',
+      'feature': 'deepview',
+      data : {
+        '$deeplink_path': 'page/1234',
+        'user_profile': '7890',
+        'page_id': '1234',
+        'custom_data': 1234
+      }
+    },
+    {
+      'open_app': true  // If true, Branch attempts to open your app immediately when the page loads. If false, users will need to press a button. Defaults to true
+    }
+);
+
 </script>
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
