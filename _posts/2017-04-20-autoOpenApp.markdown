@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Auto open the app "
-date:   2017-04-26 11:58:30 -0600
+title:  "Auto open the app"
+date:   2017-04-20 11:58:30 -0600
 categories: jekyll update
 extra_head: |
     <script>
