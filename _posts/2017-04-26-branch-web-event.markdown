@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Branch open app"
+title:  "View this page before testing event filter"
 date:   2017-04-28 11:58:30 -0600
 categories: jekyll update
 extra_head: |
