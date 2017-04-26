@@ -6,7 +6,11 @@ categories: jekyll update
 extra_head: |
     <script>
     branch.setBranchViewData({
-      open_app: true
+    data: {
+        '$deeplink_path': 'picture/12345',
+        'picture_id': '12345',
+        'user_id': '45123'
+    }
     });
     </script>
 ---
